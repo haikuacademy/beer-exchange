@@ -1,0 +1,29 @@
+* {
+  font-family: Arial;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+tr td:not(:first-child) {
+  text-align: right;
+}
+nav {
+  padding: 10px 0;
+}
+nav button {
+  margin-right: 10px;
+}
+tr.up .trend {
+  background: rgba(0, 255, 0, 0.1);
+  color: green;
+}
+tr.down .trend {
+  background: rgba(255, 0, 0, 0.1);
+  color: red;
+}
